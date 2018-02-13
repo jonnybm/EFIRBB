@@ -275,7 +275,7 @@ public class EFIRBB {
 		            		}
 
 			            	//BIG DECIMAL
-		            		if(ret.contains("Correção") )
+		            		if(ret.contains("Corre") )//correcao nao colouei inteiro para noa dar erro de caracter epecial do PDF
 		            		{
 				            	String[] partsVara = null;
 			            	 	partsVara = ret.split(" ");
